@@ -1,0 +1,32 @@
+.home{
+    padding: 40px;
+    background: linear-gradient(120deg , #df5aca , #94afe9);
+    border-radius: 20px;
+    p{
+        font-size: 20px;
+        max-width: 500px;
+        text-align: center;
+
+    }
+    img{
+        width: 700px;
+        border-radius: 20px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h2:hover{
+        color: lightblue;
+    }
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+    gap: 40px;
+    align-items: center;
+    font-family: sans-serif;
+    img:hover{
+        transition: .9s;
+        transform: scale(1.1);
+    }
+}
